@@ -10,4 +10,12 @@ $(function(){
         });
       }
     });
+
+    $(window).on('activate.bs.scrollspy', function(event, object) {
+        if (object.relatedTarget === '#home') {
+            $('#navbar-main').removeClass('bg-dark');
+        }else if (!$('#navbar-main').hasClass('bg-dark')) {
+            $('#navbar-main').addClass('bg-dark');
+        }
+    });
 });
