@@ -25,3 +25,30 @@ footer {
     height: 100%;
     object-fit: cover;
 }
+
+.cuadro-quieres-somos {
+    text-align: left;
+  }
+  
+.cuadro-quieres-somos:nth-child(even)::after,
+.cuadro-quieres-somos:nth-child(odd)::before {
+    display: block;
+    padding: 4px;
+    width: 100%;
+    background-color: #17a2b8;
+    font-family: "Font Awesome 5 Free";
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.cuadro-quieres-somos.icono-avion::before {
+    content: "\f072";
+}
+
+.cuadro-quieres-somos.icono-montana::after {
+    content: "\f6fc";
+}
+
+.cuadro-quieres-somos.icono-mapa::before {
+    content: "\f4d7";
+}
