@@ -1,0 +1,12 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    margin-top: 4.5rem;
+    padding: 3.125rem;
+}
+
+.bg-black {
+    background-color: #000;
+}
